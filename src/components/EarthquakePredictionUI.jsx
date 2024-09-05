@@ -1,0 +1,11 @@
+import React, { useState, useEffect } from 'react';
+import { MapPin, AlertTriangle, Info, Bell, Activity } from 'lucide-react';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { Slider } from '@/components/ui/slider';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import InputSection from './InputSection';
+import ResultSection from './ResultSection';
+import MapVisualization from './MapVisualization';
+import HistoricalData from './HistoricalData';
